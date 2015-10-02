@@ -36,15 +36,16 @@ Partial Class Form1
         Me.SumaBtn.Name = "SumaBtn"
         Me.SumaBtn.Size = New System.Drawing.Size(305, 23)
         Me.SumaBtn.TabIndex = 0
-        Me.SumaBtn.Text = "SUMA"
+        Me.SumaBtn.Text = "1 CLICK SUMAR -----  2 CLICK MULTIPPLICAR"
         Me.SumaBtn.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(250, 86)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(249, 62)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 13)
+        Me.Label1.Size = New System.Drawing.Size(0, 42)
         Me.Label1.TabIndex = 1
         '
         'TextBox1
@@ -67,7 +68,7 @@ Partial Class Form1
         Me.RestarBtn.Name = "RestarBtn"
         Me.RestarBtn.Size = New System.Drawing.Size(305, 23)
         Me.RestarBtn.TabIndex = 4
-        Me.RestarBtn.Text = "RESTAR"
+        Me.RestarBtn.Text = "1 Click RESTAR  ----- 2 Click DIVIDIR"
         Me.RestarBtn.UseVisualStyleBackColor = True
         '
         'Form1
